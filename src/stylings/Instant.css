@@ -1,0 +1,52 @@
+.instant-box{
+    width: 350px;
+    height: 600px;
+    background: #FBF8FD 0% 0% no-repeat padding-box;
+    /* box-shadow: 0px 2px 3px #000000; */
+    opacity: 1;
+}
+
+.buy-button{
+    width: 7rem;
+    height: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.sell-button{
+    width: 8.7rem;
+    height: 2rem;
+    background-color: rgb( 223, 222, 222);
+    border-radius: 8px;
+}
+
+.btn-all{
+    background-color: rgb( 223, 222, 222);
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.buy-btn2{
+    width: 16rem;
+    background-color: #7c20bf;
+    border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+    .instant-box{
+        width: 450px;
+    }
+
+    .buy-button{
+        width: 12rem;
+    }
+    
+    .sell-button{
+        width: 10rem;
+    }
+
+    .buy-btn2{
+        width: 22.1rem;
+    }
+    
+}
